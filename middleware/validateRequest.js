@@ -1,4 +1,3 @@
-// middleware/validateRequest.js
 // Generic middleware to validate request body using a Joi schema passed in.
 module.exports = (schema) => {
   return (req, res, next) => {
